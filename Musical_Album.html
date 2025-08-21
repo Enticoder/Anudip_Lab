@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Album Selection</title>
+  <style>
+    body {
+      background: #e7e7e7;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .album-container {
+      background: #fff;
+      width: 410px;
+      margin: 40px auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(60,60,80,0.13);
+      border: 4px solid #ea88b9;
+      overflow: hidden;
+    }
+    .header-section {
+      background: #298edc;
+      color: #fff;
+      padding-top: 18px;
+      padding-bottom: 7px;
+      text-align: center;
+    }
+    .header-section h1 {
+      margin: 0 0 8px 0;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+    .header-section p {
+      margin: 0 0 6px 0;
+      font-size: 1.08rem;
+      opacity: 0.90;
+    }
+    .music-section-label {
+      background: #31a6e6;
+      color: #fff;
+      font-weight: bold;
+      padding: 7px 0 6px 15px;
+      font-size: 1.14rem;
+      margin: 20px 0 0 0;
+      border-top: 2px solid #d6dcee;
+      text-align: left;
+      letter-spacing: 0.45px;
+    }
+    .albums-row {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      background: #f6f6fc;
+      padding: 17px 0 14px 0;
+      border-bottom: 2px solid #e2e2f0;
+    }
+    .albums-row:last-child {
+      border-bottom: none;
+    }
+    .album-card {
+      text-align: center;
+      width: 148px;
+      margin: 0 7px;
+    }
+    .album-card img {
+      width: 97px;
+      height: 85px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 7px;
+      box-shadow: 0 1px 4px rgba(60,60,80,0.11);
+      border: 2px solid #cae8fa;
+      background: #fff;
+    }
+    .album-title {
+      font-weight: normal;
+      font-size: 1.05rem;
+      margin-top: 3px;
+      color: #353566;
+      background: #fdfaf9;
+      padding: 2px 4px 1px 4px;
+      border-radius: 4px;
+      border: 1px solid #f3eaea;
+      display: inline-block;
+    }
+    .footer {
+      background: #298edc;
+      color: #fff;
+      text-align: center;
+      padding: 6px 0 5px 0;
+      font-size: 0.97rem;
+      margin-top: 3px;
+      letter-spacing: 0.3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="album-container">
+    <div class="header-section">
+      <h1>Album Selection</h1>
+      <p>Choose Your Musical Journey</p>
+    </div>
+
+    <!-- Indian Music Section -->
+    <div class="music-section-label">Indian Music</div>
+    <div class="albums-row">
+      <div class="album-card">
+        <img src="https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&w=300&h=200" alt="Indian Melodies" />
+        <div class="album-title">Album Title: Indian Melodies</div>
+      </div>
+      <div class="album-card">
+        <img src="https://www.publicdomainpictures.net/pictures/320000/velka/sitar-instrument.jpg" alt="Raga Reflections" />
+        <div class="album-title">Album Title: Raga Reflections</div>
+      </div>
+    </div>
+
+    <!-- Western Music Section -->
+    <div class="music-section-label">Western Music</div>
+    <div class="albums-row">
+      <div class="album-card">
+        <img src="https://images.pexels.com/photos/462118/pexels-photo-462118.jpeg?auto=compress&w=300&h=200" alt="Symphony Serenade" />
+        <div class="album-title">Album Title: Symphony Serenade</div>
+      </div>
+      <div class="album-card">
+        <img src="https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&w=300&h=200" alt="Jazz Jamboree" />
+        <div class="album-title">Album Title: Jazz Jamboree</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      &copy; 2023 Manaja Music Company. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
