@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Suraj Gupta - Resume</title>
+  <style>
+    /* Set font, colors, and general spacing for the whole document */
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 35px;
+      background: #fff;
+      color: #000;
+    }
+
+    /* Main content box styling: center, shadow, padding */
+    .container {
+      max-width: 850px;
+      margin: auto;
+      padding: 40px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px #eaeaea;
+    }
+
+    /* Main header (Name) styling */
+    h1 {
+      text-align: center;
+      font-size: 2.35rem;
+      margin-bottom: 0;
+    }
+
+    /* Subtitle for IT Fresher */
+    .subtitle {
+      text-align: center;
+      color: #0077c2;
+      font-weight: bold;
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 1.25rem;
+    }
+
+    /* Horizontal bar with contact info */
+    .contact-bar {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 1.07rem;
+      margin-bottom: 16px;
+    }
+    .contact-bar span {
+      margin-right: 5px;
+    }
+
+    /* Horizontal rule (line) placed immediately below the heading */
+    hr {
+      border: 0;
+      border-top: 2px solid #222;
+      margin: 0 0 14px 0; /* No top margin so line sticks to heading, space below */
+    }
+
+    /* Section heading styling: margin-bottom 0 to stick hr close */
+    .section-title {
+      font-weight: bold;
+      font-size: 1.14rem;
+      margin-top: 16px; /* space before heading */
+      margin-bottom: 0;  /* no margin below heading for tight hr */
+      letter-spacing: 0.5px;
+    }
+
+    .section {
+      margin-top: 0;
+      margin-bottom: 24px;
+    }
+
+    /* Indented skill and education lists */
+    .skills-list, .education-list {
+      margin-left: 12px;
+      font-size: 1.04rem;
+    }
+    .skills-list li {
+      margin-bottom: 3px;
+    }
+
+    /* Education major titles and boards */
+    .ed-title {
+      font-weight: bold;
+      font-size: 1.07rem;
+    }
+    .ed-subtitle {
+      color: #0077c2;
+    }
+    .ed-details, .ed-dates {
+      font-size: 0.96rem;
+      color: #333;
+    }
+
+    /* Project section titles */
+    .project-title {
+      font-weight: bold;
+      font-size: 1.08rem;
+      margin-bottom: 0;
+    }
+    .project-type {
+      font-style: italic;
+      color: #444;
+      font-size: 0.95rem;
+    }
+
+    /* Bulleted lists for subsections */
+    ul {
+      margin-top: 4px;
+      margin-bottom: 6px;
+    }
+    ul li {
+      margin-bottom: 3.5px;
+    }
+
+    /* Bolding for emphasis (e.g., skill category names) */
+    b, strong {
+      font-weight: bold;
+      color: #222;
+    }
+
+    /* Contact icons with color */
+    .icon {
+      color: #e91e63;
+      font-size: 1.1em;
+    }
+
+    /* Email link color */
+    a {
+      color: #0077c2;
+      text-decoration: underline;
+    }
+
+    /* Responsive design: Remove padding and shadow on mobile */
+    @media (max-width: 600px) {
+      .container {
+        padding: 12px;
+        box-shadow: none;
+      }
+      body {
+        margin: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Resume Header: Name and Subtitle -->
+    <h1>SURAJ GUPTA</h1>
+    <div class="subtitle">IT FRESHER</div>
+
+    <!-- Contact Information Bar -->
+    <div class="contact-bar">
+      <div>
+        <!-- Phone Icon and Number -->
+        <span class="icon">&#128222;</span>
+        8286505548
+      </div>
+      <div>
+        <!-- Email Icon and Email Address -->
+        <span class="icon">&#9993;</span>
+        <a href="mailto:surajcgupta123@gmail.com">surajcgupta123@gmail.com</a>
+      </div>
+      <div>
+        <!-- Location Icon and City -->
+        <span class="icon">&#128205;</span>
+        Mumbai, Maharashtra
+      </div>
+    </div>
+
+    <!-- Section: Summary -->
+    <div class="section">
+      <div class="section-title">SUMMARY</div>
+      <hr>
+      <div>
+        B.Sc. IT graduate with web development skills, hands-on project experience, a passion for learning new technologies to build efficient, user-friendly applications in tech teams and I'm eager to grow in a team environment where I can take on challenges and improve both technically and professionally.
+      </div>
+    </div>
+
+    <!-- Section: Skills -->
+    <div class="section">
+      <div class="section-title">SKILLS</div>
+      <hr>
+      <ul class="skills-list">
+        <li><b>Frontend:</b> HTML, CSS, JavaScript, Responsive Design.</li>
+        <li><b>Backend:</b> PHP, MySQL.</li>
+        <li><b>Programming Languages:</b> C, C++, Python, Java.</li>
+        <li><b>Tools:</b> VS Code, XAMPP, Git/GitHub.</li>
+        <li><b>Others:</b> Basic UI/UX, Debugging, Project Documentation.</li>
+      </ul>
+    </div>
+
+    <!-- Section: Education -->
+    <div class="section">
+      <div class="section-title">EDUCATION</div>
+      <hr>
+      <div class="education-list">
+        <!-- Bachelor Degree -->
+        <div>
+          <div class="ed-title">Bachelor of Science in Information and Technology</div>
+          <div class="ed-subtitle">Mumbai University</div>
+          <div class="ed-dates">&#128197; 08/2022 - 06/2025 &nbsp; &#128205; Lokhande Marg, Chembur</div>
+          <div class="ed-details">
+            • SREER NARAYANA GURU COLLEGE OF COMMERCE. <br />
+            • CGPA – 9.10
+          </div>
+        </div>
+        <!-- HSC Section -->
+        <div style="margin-top:10px;">
+          <div class="ed-title">HSC - Higher Secondary Certificate</div>
+          <div class="ed-subtitle">Maharashtra State Board of Secondary and Higher Secondary Education</div>
+          <div class="ed-dates">&#128197; 06/2020 - 02/2022 &nbsp; &#128205; Ghatkopar, Mumbai</div>
+          <div class="ed-details">
+            • RAMNIRANJAN JHUNJHUNWALA COLLEGE OF ART AND SCIENCE.
+          </div>
+        </div>
+        <!-- SSC Section -->
+        <div style="margin-top:10px;">
+          <div class="ed-title">SSC - Secondary School Certificate</div>
+          <div class="ed-subtitle">Maharashtra State Board of Secondary and Higher Secondary Education</div>
+          <div class="ed-dates">&#128197; 2019 - 2020 &nbsp; &#128205; Tilak Nagar, Chembur</div>
+          <div class="ed-details">
+            • TILAK NAGAR MP5 SECONDARY SCHOOL
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Section: Project -->
+    <div class="section">
+      <div class="section-title">PROJECT</div>
+      <hr>
+      <div class="project-title">Sports Event Management System</div>
+      <div class="project-type">Academic Project | PHP, MySQL, HTML, CSS, JavaScript</div>
+      <ul>
+        <li>
+          Developed a web application to manage college sports events with role-based access for Admins, Students, and Volunteers.
+        </li>
+        <li>
+          Implemented key features such as individual/team registration, photo upload with preview, real-time event updates, and result submission.
+        </li>
+        <li>
+          Used PHP and MySQL for backend logic and database handling; designed a responsive and user-friendly interface for mobile and desktop.
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html>
